@@ -1,6 +1,6 @@
 # React Three Fiber + RSC
 
-What works, what doesn't.
+What works, what doesn't. There is also an `spa` branch with an example on a single page with animated cubes.
 
 ## ❌ Having the Canvas in a server-side component:
 
