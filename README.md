@@ -36,9 +36,11 @@ eval
 webpack-internal:///(rsc)/./node_modules/@react-three/fiber/dist/react-three-fiber.esm.js (33:80)
 ```
 
-## ❌ Using Next useRouter inside the canvas
+## (✅ prod, ❌ dev) Using Next useRouter inside the canvas
 
-Because context is not shared from the outside of the Canvas to the inside? Use its-fine?
+It works on prod but not in dev, wth?
+
+Because context is not shared from the outside of the Canvas to the inside?
 
 ```jsx
 'use client'
