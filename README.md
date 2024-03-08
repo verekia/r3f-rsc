@@ -36,7 +36,7 @@ eval
 webpack-internal:///(rsc)/./node_modules/@react-three/fiber/dist/react-three-fiber.esm.js (33:80)
 ```
 
-## ❌ Next useRouter inside the canvas
+## ❌ Using Next useRouter inside the canvas
 
 Because context is not shared from the outside of the Canvas to the inside? Use its-fine?
 
@@ -79,6 +79,8 @@ beginWork$1
 
 ## ❌ Event handlers on server components
 
+That's expected. It would be the same with a div.
+
 ```jsx
 export default () => (
   <mesh
@@ -105,7 +107,3 @@ stringify
 <unknown>
 /Users/verekia/Local/Code/r3f-rsc/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js (35:268079)
 ```
-
-## ❌ Navigating with pushState doesn't update the R3F "page" that should be shown
-
-Clicking on a nav cube doesn't update the R3F scene.
